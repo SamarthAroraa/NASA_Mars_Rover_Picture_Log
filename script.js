@@ -1,5 +1,6 @@
 var datepicker = $("#date");
 var getbutton = $("button");
+mdc.ripple.MDCRipple.attachTo(document.querySelector(".foo-button"));
 
 function displayimg(data) {
   let imgarr = data.photos;
