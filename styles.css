@@ -144,7 +144,13 @@ img {
   border: 7px solid #6888ec;
   margin-top: 16px;
 }
-h2 {
+.logo {
   font-family: "Mina", sans-serif;
-  color: ;
+  transform: scale(2);
+
+  /* color: ; */
+}
+.mdc-button {
+  font-family: "Mina", sans-serif;
+  transform: scale(1.5);
 }
