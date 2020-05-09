@@ -3,6 +3,7 @@ var getbutton = $("button");
 mdc.ripple.MDCRipple.attachTo(document.querySelector(".foo-button"));
 
 function displayimg(data) {
+  $(".wrapper").empty();
   let imgarr = data.photos;
   if (imgarr.length == 0) {
     alert("No images available for selected date!");
